@@ -8,20 +8,11 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Header and Page Links-->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-8"> <a href="index.html" id="logo">Steve Kindt</a></div>
 
@@ -36,7 +27,7 @@
                         <div class="navbar-nav">
                             <a class="nav-item nav-link" href="index.html">About</a>
                             <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</a>
-                            <a class="nav-item nav-link" href="contact.html">Contact</span></a>
+                            <a class="nav-item nav-link" href="contact.html">Contact Form</span></a>
                         </div>
                     </div>
                 </nav>
@@ -44,7 +35,7 @@
         </div>
 
         <!-- Main Content of Portfolio -->
-        <div id="main-content" class="container">
+        <div id="main-content" class="container-fluid">
             <section class="main-section">
                 <div class="row">
                     <div class="col-sm-12">
@@ -52,28 +43,39 @@
                         <!-- Pictures -->
                         <!-- Added img-responsive class to img's-->
                         <div class="port">
-                            <img class="img-responsive" src="assets/images/cats.jpeg" alt="cat picture">
-                            <h2>Cute Cat Generator</h2>
+                            <h5>Random Password Generator</h5>
+                            <img class="img-responsive" src="assets/images/password.png" alt="Random Password Generator Application">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="description">This application generates a random password based on user-selected character types and length.</p>
+                                <p><a href="https://github.com/stevekindt/Password-Generator" target="_blank">Link to GitHub</a></p>
+                                <p><a href="https://stevekindt.github.io/Password-Generator/" target="_blank">Deployed Application</a></p>
+                                </div>
+                              </div>
                         </div>
 
                         <div class="port">
-                            <img class="img-responsive" src="assets/images/exercise.jpeg" alt="exercise picture">
-                            <h2>Exercise Planner</h2>
+                            <h5>Weather Dashboard</h5>
+                            <img class="img-responsive" src="assets/images/weather.png" alt="Weather Dashboard Application">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="description">This application generates current and forecasted weather conditions for locations searched.</p>
+                                <p><a href="https://github.com/stevekindt/Weather-Dashboard" target="_blank">Link to GitHub</a></p>
+                                <p><a href="https://stevekindt.github.io/Weather-Dashboard/" target="_blank">Deployed Application</a></p>
+                                </div>
+                              </div>
                         </div>
 
                         <div class="port">
-                            <img class="img-responsive" src="assets/images/kangaroo.jpeg" alt="kangaroo picture">
-                            <h2>Hop to It!</h2>
-                        </div>
-
-                        <div class="port">
-                            <img class="img-responsive" src="assets/images/productivity.jpeg" alt="office work picture">
-                            <h2>Productivity Tracker</h2>
-                        </div>
-
-                        <div class="port">
-                            <img class="img-responsive" src="assets/images/travel.jpeg" alt="sydney opera house">
-                            <h2>Travel Journal</h2>
+                            <h5>TravelMaster</h5>
+                            <img class="img-responsive" src="assets/images/travelmaster.png" alt="Travel Application API Group Project">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p class="description">This group project interacts with APIs to provide weather, interesting facts, and a map to travelers searching for information about a destination.</p>
+                                <p><a href="https://github.com/stevekindt/Project-1" target="_blank">Link to GitHub</a></p>
+                                <p><a href="https://stevekindt.github.io/Project-1/" target="_blank">Deployed Application</a></p>
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -87,12 +89,20 @@
 
         <div class="row">
             <div class="col-sm-12">
-                <p>Copyright© 2019 Steve Kindt</p>
+                <p>Copyright© 2020 Steve Kindt</p>
             </div>
         </div>
 
     </footer>
 
 </body>
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
 </html>
